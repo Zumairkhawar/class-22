@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    padding: 0px; 
+}
+*{
+    box-sizing: border-box;
+}
+.header-top{
+           width: 100%;
+}
+.container{
+          width: 1100px;
+          margin-left:auto;
+          margin-right: auto;
+}
+.clear-float{
+    clear: both;
+}
+.logo{
+    float: left;
+    padding: 7px;
+}
+.logo img{
+    width: 150px;
+}
+.main-menu{
+}
+.main-menu ul li{
+    display: inline-block;
+    padding: 7px;
+    float: right;
+    justify-content: space-around;
+}
+.main-menu ul li a{
+        text-decoration: none;
+        color: darkcyan;
+        font-size: 15px;
+}
+.call-left{
+    float: left;
+    width: 60%;
+}
+.main-menu ul li a:hover{
+       color: wheat;
+       background-color: black;
+}
+.heading aside{
+         color: tomato;
+         font-size: 50px;
+         font-weight: 50px;
+         display: inline-block;
+}
+.call-right{
+    float: right;
+    width: 40%;
+}
+.heading{
+    font-size:35px;
+    font-weight: 35px;
+}
+.para{
+    display: inline-block;
+}
+.para ::first-line{
+    color: darkgray;
+}
+.form{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.search-bar{
+    border-radius: 30px;
+    box-shadow: 2 5 10 red;
+}
+.search-bar select{
+    border: 0px;
+}
+.search-bar input{
+    border: 0px;
+}
+.search-bar input:focus{
+    border: 3px solid red;
+}
+.form h1{
+    color: white;
+    text-align: center;
+}
+.form input{
+    width: 89%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3%;
+}
+.form button{
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3%;
+    background-color: orange;   
+}
+.header h1{
+       font-size: 32px;
+       font-weight: bolder;
+       text-align: center;
+}
+.header p{
+    text-align: center;
+}
+.head{
+    text-align: center;
+}
+.sec-3{
+    text-align: center;
+}
+.section{
+    text-align: center;
+}
+.card{
+    border: 2px solid black;
+    width: 15%;
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+}
+.card img{
+    width: 40px;
+}
+.card p{
+    padding: 4px;
+    text-align: center;
+}
+.card-img-box{
+    border: 2px solid black;
+    width: 24%;
+    height: 270px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+    background-repeat: no-repeat;
+}
+.card-img-box h1{
+    font-size: 30px;
+    color: white;
+    justify-content: center;
+}
+.card-img-box p{
+    display: none;
+    color: white;
+    text-align: center;
+}
+.card-img-box button{
+    width: 80%;
+    background-color: black;
+    color: white;
+    margin: 20px
+}
+.card-img-box:hover h1{
+    font-size: 20px;
+}
+.card-img-box:hover p{
+    display: block;
+}
+.card-1{
+       background-image: url(images/kk.jpg);
+}
+.card-2{
+    background-image: url(images/zz.jpg);
+}
+.card-3{
+    background-image: url(images/d.jpg);
+}
+.card-4{
+    background-image: url(images/jj.jpg);
+}
+.card-5{
+    background-image: url(images/k.jpg);
+}
+.card-6{
+    background-image: url(images/b.jpg);
+}
+.card-7{
+    background-image: url(images/v.jpg);
+}
+.card-8{
+    background-image: url(images/ll.jpg);
+}
+.card-9{
+    background-image: url(images/m.jpg);
+}
+.card-10{
+    background-image: url(images/q.jpg);
+}
+.card-11{
+    background-image: url(images/e.jpg);
+}
+.card-12{
+    background-image: url(images/l.jpg);
+}
+.column-left{
+    float: left;
+} 
+.column-right img{
+    position: relative;
+    top: 100px;
+}
+.lines div{
+    margin: 10px;
+}
+.coll-left{
+    display: inline-block;
+}
+.call-mid{
+    display: inline-block;
+    position: relative;
+    bottom: 222.99px;
+    left: 50px;
+}
+.coll-right{
+    position: absolute;
+    top: 2500px;
+    left: 850px;
+}
+.hat h1{
+       text-align: center;
+}
+.images img{
+    margin: 5px;
+}
